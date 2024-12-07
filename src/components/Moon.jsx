@@ -28,7 +28,7 @@ const Moon = () => {
       <Card.Body>
         <Card.Title>{moon?.title}</Card.Title>
         <Card.Text></Card.Text>
-        <Button variant="primary">Weather</Button>
+        <Button variant="primary">More details</Button>
       </Card.Body>
     </Card>
   );
