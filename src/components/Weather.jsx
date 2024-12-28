@@ -67,7 +67,7 @@ const Weather = () => {
                     <>
                       <Card.Title className="h1">{data.name}</Card.Title>
                       <Card.Text className="h6">
-                        {new Date().toLocaleDateString()}
+                        {new Date(1).toLocaleDateString()}
                       </Card.Text>
                       <hr />
                       <CardText className="d-flex justify-content-center">
